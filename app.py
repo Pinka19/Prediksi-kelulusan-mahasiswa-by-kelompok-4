@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # === Load model ===
-model = joblib.load("xgb_model.pkl")
+model = joblib.load("graduate_predictor_model.pkl")
 
 # === Fitur input ===
 features = [
